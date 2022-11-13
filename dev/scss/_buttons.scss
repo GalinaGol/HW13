@@ -1,0 +1,33 @@
+.btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    border: 1px solid $blue;
+}
+
+
+
+.btn-type {
+    align-self: flex-start;
+    background-color: $blue;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    border-radius: 8px;
+    padding: 5px 22px;
+    margin-left: 6px;
+
+    &:hover {
+        background: white;
+        color: $blue;
+    }
+}
+   
